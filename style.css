@@ -1,7 +1,46 @@
+
+
 body {
-    background: lightgrey;
-  }
+  background-image: url("https://www.pikpng.com/pngl/b/590-5903690_rainbow-overlay-png-aesthetic-wallpaper-desktop-clipart.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: bottom; 
+}
+
+.world{
+  color: blueviolet;
+  text-align: center;
+  font-style: italic;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
 
   .world:hover{
-    color: blueviolet;
+    color: lightseagreen;
+  }
+
+
+  .emoji{
+    font-size: 5rem;
+    cursor: pointer;
+    user-select: none;
+    font-display: center;
+
+  }    
+
+  .closed{
+    display: none;
+  }
+  .open{
+    display: none;
+  }
+
+  .active{
+    display: block;
+  }
+  
+  .soft{
+    font-display: center;
+    font-size: large;
   }
