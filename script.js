@@ -16,3 +16,7 @@ openFace.addEventListener('click', () => {
         openFace.classList.remove('active');
  }
 });
+
+function revealMessage() {
+document.getElementById("hiddenMessage").style.display = 'block';
+}
