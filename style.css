@@ -4,7 +4,9 @@ body {
   background-image: url("https://www.pikpng.com/pngl/b/590-5903690_rainbow-overlay-png-aesthetic-wallpaper-desktop-clipart.png");
   background-repeat: no-repeat;
   background-position: center;
-  position: bottom; 
+  position: center; 
+  cursor: pointer;
+  user-select: none;
 }
 
 .world{
@@ -25,8 +27,7 @@ body {
     font-size: 5rem;
     cursor: pointer;
     user-select: none;
-    font-display: center;
-
+    text-align: center;
   }    
 
   .closed{
