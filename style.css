@@ -7,6 +7,7 @@ body {
   position: center; 
   cursor: pointer;
   user-select: none;
+  background-attachment: fixed;
 }
 
 .world{
@@ -41,13 +42,26 @@ body {
     display: block;
   }
   
+  .about{
+    text-align: center;
+    margin: 0 auto;
+    /* position: absolute;
+    left: 50%; */
+  }
+
+
   .soft{
+    color:antiquewhite;
     font-display: center;
     font-size: large;
+    right: 20px;
+    position: absolute;
+    top: 85%;
   }
 
   #hiddenMessage{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-style: oblique;
     cursor: pointer;
     user-select: none;
     text-align: center;

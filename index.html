@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8">
@@ -7,21 +8,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
 </head>
+
 <body>
 
     <h1 class="world"> Michelle P Caraballo</h1>
- 
-    <h2 class="emoji closed active">🙈</h2>
-    <h3 class="emoji open">😁</h3>  
+
+    <div>
+        <h2 class="emoji closed active">🙈</h2>
+        <h2 class="emoji open">😁</h2>
+    </div>
+
+
+    <div class="about"><button onclick="revealMessage()">ABOUT ME!</button>
+    </div>
+    <div id="hiddenMessage" style="display:none"> 
+        <h3> I LOVE STAR WARS! </h3>
+
+        <h2<a href=https://yoursmiles.org/h-starwars.php><img src=https://yoursmiles.org/hsmile/starwars/h1507.gif></a> </h2>
+    </div>
+
+
+
     <h4 class="soft">Software Engineering</h4>
-    
-    <button onclick="revealMessage()">ABOUT ME!</button>
-    <p id="hiddenMessage" style="display:none"> I LOVE STAR WARS!
-        <a href=https://yoursmiles.org/h-starwars.php><img src=https://yoursmiles.org/hsmile/starwars/h1507.gif></a> </p>
     <script src="script.js"></script>
 
-  
-    
+
+
 
 </body>
 </html>
